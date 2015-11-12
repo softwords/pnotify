@@ -2,34 +2,8 @@
     "name": "pnotify",
     "description": "JavaScript notification plugin.",
     "main": [
-        "dist/pnotify.animate.min.js",
-        "dist/pnotify.brighttheme.min.css",
-        "dist/pnotify.buttons.min.css",
-        "dist/pnotify.buttons.min.js",
-        "dist/pnotify.callbacks.min.js",
-        "dist/pnotify.confirm.min.js",
-        "dist/pnotify.core.min.css",
-        "dist/pnotify.core.min.js",
-        "dist/pnotify.desktop.min.js",
-        "dist/pnotify.history.min.css",
-        "dist/pnotify.history.min.js",
-        "dist/pnotify.mobile.min.css",
-        "dist/pnotify.mobile.min.js",
-        "dist/pnotify.nonblock.min.js",
-        "src/pnotify.animate.js",
-        "src/pnotify.brighttheme.css",
-        "src/pnotify.buttons.css",
-        "src/pnotify.buttons.js",
-        "src/pnotify.callbacks.js",
-        "src/pnotify.confirm.js",
-        "src/pnotify.core.css",
-        "src/pnotify.core.js",
-        "src/pnotify.desktop.js",
-        "src/pnotify.history.css",
-        "src/pnotify.history.js",
-        "src/pnotify.mobile.css",
-        "src/pnotify.mobile.js",
-        "src/pnotify.nonblock.js"
+        "pnotify.custom.css",
+		"pnotify.custom.js"
     ],
     "ignore": [
         "build-tools/",
@@ -45,5 +19,9 @@
         "src/pnotify.tooltip.js",
         "src/pnotify.tooltip.min.js"
     ],
+	"dependencies": {
+		"bootstrap": "^3.3.5",
+		"jquery": "^1.6.0"
+	},
     "license": ["Apache-2.0"]
 }
