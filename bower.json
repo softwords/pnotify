@@ -1,6 +1,6 @@
 {
-    "name": "pnotify",
-	"version": "2.0.1",
+    "name": "pnotify_build",
+	"version": "2.1.0",
     "description": "JavaScript notification plugin.",
     "main": [
         "pnotify.custom.css",
